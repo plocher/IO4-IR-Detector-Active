@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="2" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1226,11 +1226,11 @@ design rules under a new name.
 <element name="C1X11" library="SPCoast" package="0805-CAP" value="0.1uF" x="24.003" y="15.24"/>
 <element name="C2X11" library="SPCoast" package="0805-CAP" value="0.1uF" x="15.24" y="41.91" rot="R90"/>
 <element name="C3X11" library="SPCoast" package="0810-CAP" value="220uF" x="38.608" y="4.826"/>
-<element name="CON1X11" library="SPCoast" package="RJ25-PANEL" value="" x="22.86" y="3.175"/>
-<element name="JP1X11" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="41.91" rot="R180"/>
-<element name="JP2X11" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="31.75" rot="R180"/>
-<element name="JP3X11" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="21.59" rot="R180"/>
-<element name="JP4X11" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="11.43" rot="R180"/>
+<element name="CON1X11" library="SPCoast" package="RJ25-PANEL" value="RJ12/6" x="22.86" y="3.175"/>
+<element name="JP1X11" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="41.91" rot="R180"/>
+<element name="JP2X11" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="31.75" rot="R180"/>
+<element name="JP3X11" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="21.59" rot="R180"/>
+<element name="JP4X11" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="11.43" rot="R180"/>
 <element name="LED1X11" library="SPCoast" package="0603-LED" value="Y" x="13.97" y="3.81" rot="R270"/>
 <element name="LED2X11" library="SPCoast" package="0603-LED" value="Y" x="11.43" y="3.81" rot="R270"/>
 <element name="LED3X11" library="SPCoast" package="0603-LED" value="Y" x="8.89" y="3.81" rot="R270"/>
@@ -1257,11 +1257,11 @@ design rules under a new name.
 <element name="C1X12" library="SPCoast" package="0805-CAP" value="0.1uF" x="24.003" y="65.24"/>
 <element name="C2X12" library="SPCoast" package="0805-CAP" value="0.1uF" x="15.24" y="91.91" rot="R90"/>
 <element name="C3X12" library="SPCoast" package="0810-CAP" value="220uF" x="38.608" y="54.826"/>
-<element name="CON1X12" library="SPCoast" package="RJ25-PANEL" value="" x="22.86" y="53.175"/>
-<element name="JP1X12" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="91.91" rot="R180"/>
-<element name="JP2X12" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="81.75" rot="R180"/>
-<element name="JP3X12" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="71.59" rot="R180"/>
-<element name="JP4X12" library="SPCoast" package="1X04_LOCK" value="" x="42.545" y="61.43" rot="R180"/>
+<element name="CON1X12" library="SPCoast" package="RJ25-PANEL" value="RJ12/6" x="22.86" y="53.175"/>
+<element name="JP1X12" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="91.91" rot="R180"/>
+<element name="JP2X12" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="81.75" rot="R180"/>
+<element name="JP3X12" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="71.59" rot="R180"/>
+<element name="JP4X12" library="SPCoast" package="1X04_LOCK" value="0.100" x="42.545" y="61.43" rot="R180"/>
 <element name="LED1X12" library="SPCoast" package="0603-LED" value="Y" x="13.97" y="53.81" rot="R270"/>
 <element name="LED2X12" library="SPCoast" package="0603-LED" value="Y" x="11.43" y="53.81" rot="R270"/>
 <element name="LED3X12" library="SPCoast" package="0603-LED" value="Y" x="8.89" y="53.81" rot="R270"/>
@@ -1288,11 +1288,11 @@ design rules under a new name.
 <element name="C1X21" library="SPCoast" package="0805-CAP" value="0.1uF" x="74.003" y="15.24"/>
 <element name="C2X21" library="SPCoast" package="0805-CAP" value="0.1uF" x="65.24" y="41.91" rot="R90"/>
 <element name="C3X21" library="SPCoast" package="0810-CAP" value="220uF" x="88.608" y="4.826"/>
-<element name="CON1X21" library="SPCoast" package="RJ25-PANEL" value="" x="72.86" y="3.175"/>
-<element name="JP1X21" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="41.91" rot="R180"/>
-<element name="JP2X21" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="31.75" rot="R180"/>
-<element name="JP3X21" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="21.59" rot="R180"/>
-<element name="JP4X21" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="11.43" rot="R180"/>
+<element name="CON1X21" library="SPCoast" package="RJ25-PANEL" value="RJ12/6" x="72.86" y="3.175"/>
+<element name="JP1X21" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="41.91" rot="R180"/>
+<element name="JP2X21" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="31.75" rot="R180"/>
+<element name="JP3X21" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="21.59" rot="R180"/>
+<element name="JP4X21" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="11.43" rot="R180"/>
 <element name="LED1X21" library="SPCoast" package="0603-LED" value="Y" x="63.97" y="3.81" rot="R270"/>
 <element name="LED2X21" library="SPCoast" package="0603-LED" value="Y" x="61.43" y="3.81" rot="R270"/>
 <element name="LED3X21" library="SPCoast" package="0603-LED" value="Y" x="58.89" y="3.81" rot="R270"/>
@@ -1319,11 +1319,11 @@ design rules under a new name.
 <element name="C1X22" library="SPCoast" package="0805-CAP" value="0.1uF" x="74.003" y="65.24"/>
 <element name="C2X22" library="SPCoast" package="0805-CAP" value="0.1uF" x="65.24" y="91.91" rot="R90"/>
 <element name="C3X22" library="SPCoast" package="0810-CAP" value="220uF" x="88.608" y="54.826"/>
-<element name="CON1X22" library="SPCoast" package="RJ25-PANEL" value="" x="72.86" y="53.175"/>
-<element name="JP1X22" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="91.91" rot="R180"/>
-<element name="JP2X22" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="81.75" rot="R180"/>
-<element name="JP3X22" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="71.59" rot="R180"/>
-<element name="JP4X22" library="SPCoast" package="1X04_LOCK" value="" x="92.545" y="61.43" rot="R180"/>
+<element name="CON1X22" library="SPCoast" package="RJ25-PANEL" value="RJ12/6" x="72.86" y="53.175"/>
+<element name="JP1X22" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="91.91" rot="R180"/>
+<element name="JP2X22" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="81.75" rot="R180"/>
+<element name="JP3X22" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="71.59" rot="R180"/>
+<element name="JP4X22" library="SPCoast" package="1X04_LOCK" value="0.100" x="92.545" y="61.43" rot="R180"/>
 <element name="LED1X22" library="SPCoast" package="0603-LED" value="Y" x="63.97" y="53.81" rot="R270"/>
 <element name="LED2X22" library="SPCoast" package="0603-LED" value="Y" x="61.43" y="53.81" rot="R270"/>
 <element name="LED3X22" library="SPCoast" package="0603-LED" value="Y" x="58.89" y="53.81" rot="R270"/>
