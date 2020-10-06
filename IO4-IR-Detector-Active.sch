@@ -3962,10 +3962,10 @@ Standard 8.5x11 US Letter frame</description>
 <library name="SPCoast">
 <packages>
 <package name="ARDUINO_PRO_MINI_DAVEK">
-<wire x1="17.145" y1="39.1668" x2="17.145" y2="30.0736" width="0.127" layer="21"/>
-<wire x1="17.145" y1="30.0736" x2="0.635" y2="30.0736" width="0.127" layer="21"/>
-<wire x1="0.635" y1="30.0736" x2="0.635" y2="39.1668" width="0.127" layer="21"/>
-<wire x1="0.635" y1="39.1668" x2="17.145" y2="39.1668" width="0.127" layer="21"/>
+<wire x1="17.145" y1="39.1668" x2="17.145" y2="30.0736" width="0.127" layer="49"/>
+<wire x1="17.145" y1="30.0736" x2="0.635" y2="30.0736" width="0.127" layer="49"/>
+<wire x1="0.635" y1="30.0736" x2="0.635" y2="39.1668" width="0.127" layer="49"/>
+<wire x1="0.635" y1="39.1668" x2="17.145" y2="39.1668" width="0.127" layer="49"/>
 <pad name="RES" x="16.51" y="24.13" drill="1.016" rot="R90"/>
 <pad name="5V" x="16.51" y="21.59" drill="1.016" rot="R90"/>
 <pad name="GND@4" x="1.27" y="21.59" drill="1.016" rot="R90"/>
@@ -5706,23 +5706,23 @@ chip</description>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.635" layer="51"/>
 </package>
 <package name="0603-RES">
-<wire x1="-1.473" y1="0.6528" x2="1.473" y2="0.6528" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.6528" x2="1.473" y2="-0.6528" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.6528" x2="-1.473" y2="-0.6528" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.6528" x2="-1.473" y2="0.6528" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="0.508" x2="1.473" y2="0.508" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.508" x2="1.473" y2="-0.508" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.508" x2="-1.473" y2="-0.508" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.508" x2="-1.473" y2="0.508" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="49"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="49"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="1" x="-0.889" y="0" dx="0.8128" dy="0.8128" layer="1"/>
+<smd name="2" x="0.889" y="0" dx="0.8128" dy="0.8128" layer="1"/>
 <text x="-1.27" y="1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.27" y="-1.905" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="49"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="49"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<wire x1="1.524" y1="0.635" x2="-1.524" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-1.524" y1="0.635" x2="-1.524" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.524" y1="-0.635" x2="1.524" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.524" y1="-0.635" x2="1.524" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.4478" y1="0.508" x2="-1.4478" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-1.4478" y1="0.508" x2="-1.4478" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-1.4478" y1="-0.508" x2="1.4478" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="1.4478" y1="-0.508" x2="1.4478" y2="0.508" width="0.127" layer="21"/>
 <wire x1="-0.1143" y1="0" x2="0.1143" y2="0.002540625" width="0.254" layer="21"/>
 </package>
 <package name="0402-RES">
@@ -6825,12 +6825,12 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
 <part name="OSH_LOGO" library="SparkFun" deviceset="OSHW-LOGO" device="M"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="1k0"/>
-<part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="1k0"/>
+<part name="R1" library="SPCoast" deviceset="R*" device="0603-RES" value="1k0"/>
+<part name="R2" library="SPCoast" deviceset="R*" device="0603-RES" value="1k0"/>
 <part name="Q1" library="SPCoast" deviceset="NPN" device="-SOT23" value="NPN-2222"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="SPCoast" deviceset="R*" device="0805-RES" value="100K"/>
+<part name="R5" library="SPCoast" deviceset="R*" device="0603-RES" value="100K"/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
 <part name="P+6" library="supply1" deviceset="V+" device=""/>
@@ -6838,13 +6838,13 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP1" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="JP2" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="SPCoast" deviceset="R*" device="0805-RES" value="100K"/>
-<part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="1k0"/>
-<part name="R4" library="SPCoast" deviceset="R*" device="0805-RES" value="1k0"/>
+<part name="R6" library="SPCoast" deviceset="R*" device="0603-RES" value="100K"/>
+<part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="1k0"/>
+<part name="R4" library="SPCoast" deviceset="R*" device="0603-RES" value="1k0"/>
 <part name="Q3" library="SPCoast" deviceset="NPN" device="-SOT23" value="NPN-2222"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="SPCoast" deviceset="R*" device="0805-RES" value="100K"/>
+<part name="R7" library="SPCoast" deviceset="R*" device="0603-RES" value="100K"/>
 <part name="P+8" library="supply1" deviceset="V+" device=""/>
 <part name="P+9" library="supply1" deviceset="V+" device=""/>
 <part name="P+10" library="supply1" deviceset="V+" device=""/>
@@ -6852,15 +6852,15 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP3" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="JP4" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="SPCoast" deviceset="R*" device="0805-RES" value="100K"/>
+<part name="R8" library="SPCoast" deviceset="R*" device="0603-RES" value="100K"/>
 <part name="LED1" library="SPCoast" deviceset="LED*" device="0603-LED" value="Y"/>
 <part name="LED2" library="SPCoast" deviceset="LED*" device="0603-LED" value="Y"/>
 <part name="LED3" library="SPCoast" deviceset="LED*" device="0603-LED" value="Y"/>
 <part name="LED4" library="SPCoast" deviceset="LED*" device="0603-LED" value="Y"/>
-<part name="R9" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
-<part name="R10" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
-<part name="R11" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
-<part name="R12" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
+<part name="R9" library="SPCoast" deviceset="R*" device="0603-RES" value="2k0"/>
+<part name="R10" library="SPCoast" deviceset="R*" device="0603-RES" value="2k0"/>
+<part name="R11" library="SPCoast" deviceset="R*" device="0603-RES" value="2k0"/>
+<part name="R12" library="SPCoast" deviceset="R*" device="0603-RES" value="2k0"/>
 <part name="P+16" library="supply1" deviceset="V+" device=""/>
 <part name="Q4" library="SPCoast" deviceset="NPN" device="-SOT23" value="NPN-2222"/>
 <part name="Q2" library="SPCoast" deviceset="NPN" device="-SOT23" value="NPN-2222"/>
@@ -6868,13 +6868,13 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
 <part name="LED5" library="SPCoast" deviceset="LED*" device="0603-LED" value="G"/>
-<part name="R14" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
+<part name="R14" library="SPCoast" deviceset="R*" device="0603-RES" value="2k0"/>
 <part name="C3" library="SPCoast" deviceset="CAP-POL*" device="0810" value="220uF"/>
-<part name="ARDUINO1" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT"/>
+<part name="ARDUINO1" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT" value="DAVEK"/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="SPCoast" deviceset="CAP*" device="0805" value="0.1uF"/>
-<part name="C2" library="SPCoast" deviceset="CAP*" device="0805" value="0.1uF"/>
+<part name="C1" library="SPCoast" deviceset="CAP*" device="0603" value="0.1uF"/>
+<part name="C2" library="SPCoast" deviceset="CAP*" device="0603" value="0.1uF"/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-RJ25" device="-6P6C" value="RJ12/6"/>
 </parts>
 <sheets>
